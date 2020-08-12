@@ -18,13 +18,13 @@
       line-height:45px;
     }
     nav ul li{
-      display:inline;
+      display:inline-block;
       text-align: left;
       width:30%;
     }
     .link{
       color:white;
-      display:inline;
+      display:inline-block;
       width:30%;
       font-size: 100%;
       text-align: left;
@@ -120,7 +120,7 @@ header{
 .link{
   color:white;
   font-size: 100%;
-  line-height: 100px;
+  line-height: 45px;
   padding-bottom: 20%;
 
 
