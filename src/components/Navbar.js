@@ -1,11 +1,11 @@
 import React from 'react';
 import Navitem from './Navitem.js';
-
 export default class Navbar extends React.Component {
 
   render() {
     return(
       <nav>
+        <hr></hr>
       <h1 className="heading">My Portfolio</h1>
       <hr/>
       <ul>

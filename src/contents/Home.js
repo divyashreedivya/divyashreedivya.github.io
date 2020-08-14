@@ -1,5 +1,5 @@
 import React from 'react';
-import profilepic from '../img/profilepic.png';
+import profilepic from '../img/profilepic.jpg';
 import Social from '../components/Social.js';
 
 
