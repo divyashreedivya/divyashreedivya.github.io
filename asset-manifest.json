@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/divyashreedivya.github.io/static/css/main.05a4a097.chunk.css",
-    "main.js": "/divyashreedivya.github.io/static/js/main.64b67560.chunk.js",
-    "main.js.map": "/divyashreedivya.github.io/static/js/main.64b67560.chunk.js.map",
+    "main.css": "/divyashreedivya.github.io/static/css/main.b64c7cf4.chunk.css",
+    "main.js": "/divyashreedivya.github.io/static/js/main.ced337e2.chunk.js",
+    "main.js.map": "/divyashreedivya.github.io/static/js/main.ced337e2.chunk.js.map",
     "runtime-main.js": "/divyashreedivya.github.io/static/js/runtime-main.8a494530.js",
     "runtime-main.js.map": "/divyashreedivya.github.io/static/js/runtime-main.8a494530.js.map",
     "static/css/2.ed439b8d.chunk.css": "/divyashreedivya.github.io/static/css/2.ed439b8d.chunk.css",
-    "static/js/2.69c23acc.chunk.js": "/divyashreedivya.github.io/static/js/2.69c23acc.chunk.js",
-    "static/js/2.69c23acc.chunk.js.map": "/divyashreedivya.github.io/static/js/2.69c23acc.chunk.js.map",
+    "static/js/2.fbd6b99e.chunk.js": "/divyashreedivya.github.io/static/js/2.fbd6b99e.chunk.js",
+    "static/js/2.fbd6b99e.chunk.js.map": "/divyashreedivya.github.io/static/js/2.fbd6b99e.chunk.js.map",
     "index.html": "/divyashreedivya.github.io/index.html",
-    "precache-manifest.d404367c64d0c3a3b1748c9407a6e215.js": "/divyashreedivya.github.io/precache-manifest.d404367c64d0c3a3b1748c9407a6e215.js",
+    "precache-manifest.61c936cf635ed1d6a4702e0489266511.js": "/divyashreedivya.github.io/precache-manifest.61c936cf635ed1d6a4702e0489266511.js",
     "service-worker.js": "/divyashreedivya.github.io/service-worker.js",
     "static/css/2.ed439b8d.chunk.css.map": "/divyashreedivya.github.io/static/css/2.ed439b8d.chunk.css.map",
-    "static/css/main.05a4a097.chunk.css.map": "/divyashreedivya.github.io/static/css/main.05a4a097.chunk.css.map",
-    "static/js/2.69c23acc.chunk.js.LICENSE.txt": "/divyashreedivya.github.io/static/js/2.69c23acc.chunk.js.LICENSE.txt",
-    "static/media/profilepic.jpg": "/divyashreedivya.github.io/static/media/profilepic.1c0f0b9f.jpg"
+    "static/css/main.b64c7cf4.chunk.css.map": "/divyashreedivya.github.io/static/css/main.b64c7cf4.chunk.css.map",
+    "static/js/2.fbd6b99e.chunk.js.LICENSE.txt": "/divyashreedivya.github.io/static/js/2.fbd6b99e.chunk.js.LICENSE.txt",
+    "static/media/cert1.jpg": "/divyashreedivya.github.io/static/media/cert1.0a90d063.jpg",
+    "static/media/cert2.jpg": "/divyashreedivya.github.io/static/media/cert2.7110186e.jpg",
+    "static/media/cert3.jpg": "/divyashreedivya.github.io/static/media/cert3.e003fbbc.jpg",
+    "static/media/cert4.jpg": "/divyashreedivya.github.io/static/media/cert4.330edc6f.jpg",
+    "static/media/profilepic.jpg": "/divyashreedivya.github.io/static/media/profilepic.1c0f0b9f.jpg",
+    "static/media/App.css": "/divyashreedivya.github.io/static/media/techbgblue.06d15c82.png",
+    "static/media/view-page.PNG": "/divyashreedivya.github.io/static/media/view-page.6e76c8ce.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.8a494530.js",
     "static/css/2.ed439b8d.chunk.css",
-    "static/js/2.69c23acc.chunk.js",
-    "static/css/main.05a4a097.chunk.css",
-    "static/js/main.64b67560.chunk.js"
+    "static/js/2.fbd6b99e.chunk.js",
+    "static/css/main.b64c7cf4.chunk.css",
+    "static/js/main.ced337e2.chunk.js"
   ]
 }
