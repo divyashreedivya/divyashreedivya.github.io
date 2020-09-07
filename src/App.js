@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Contact from './contents/Contact';
+import MyWorks from './contents/MyWorks';
 
 
 export default class App extends React.Component {
@@ -24,6 +25,9 @@ export default class App extends React.Component {
         <Route path="/about">
          <About />
          </Route>
+        <Route path="/myworks">
+           <MyWorks/>
+    </Route>          
          <Route path="/contact">
          <Contact />
         </Route>

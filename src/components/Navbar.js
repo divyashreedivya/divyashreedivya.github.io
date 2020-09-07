@@ -1,19 +1,59 @@
 import React from 'react';
-import Navitem from './Navitem.js';
-export default class Navbar extends React.Component {
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  Container
+} from 'reactstrap';
+import {NavLink} from 'react-router-dom';
 
-  render() {
-    return(
-      <nav>
-        <hr></hr>
-      <h1 className="heading">My Portfolio</h1>
-      <hr/>
-      <ul>
-      <Navitem item="Home" tolink="/" ></Navitem>
-      <Navitem item="About" tolink="/about"  ></Navitem>
-      <Navitem item="Contact" tolink="/contact"  ></Navitem>
-      </ul>
-      </nav>
-    )
-  }
-}
+ export default class Navigationbar extends React.Component{
+   constructor(props){
+     super(props);
+
+     this.state={
+       isNavOpen: false,
+     };
+     this.toggleNav=this.toggleNav.bind(this);
+     }
+     toggleNav(){
+       this.setState({
+         isNavOpen:!this.state.isNavOpen
+       });
+     }
+   
+   render(){
+     return(
+         <div className="nav">
+           <Navbar dark expand="md">
+             
+               <Container>
+            
+             <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
+             <NavbarBrand className="mr-auto" href="/" >Portfolio</NavbarBrand> 
+             <Collapse isOpen={this.state.isNavOpen} navbar>
+               <Nav navbar>
+                 <NavItem className="link">
+                   <NavLink className="navlink" exact to="/">Home</NavLink>
+                 </NavItem>
+                 <NavItem className="link">
+                   <NavLink className="navlink" to="/about">About</NavLink>
+                 </NavItem>
+                 <NavItem className="link">
+                   <NavLink className="navlink" to="/myworks">Works</NavLink>
+     </NavItem>       
+                 <NavItem className="link">
+                   <NavLink className="navlink" to="/contact">Contact</NavLink>
+                 </NavItem>
+               </Nav>
+             </Collapse>
+             </Container>
+             
+           </Navbar>
+         </div>
+     )
+   }
+ }
