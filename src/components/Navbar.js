@@ -5,8 +5,7 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  Container
+  NavItem
 } from 'reactstrap';
 import {NavLink} from 'react-router-dom';
 
@@ -29,8 +28,6 @@ import {NavLink} from 'react-router-dom';
      return(
          <div className="nav">
            <Navbar dark expand="md">
-             
-               <Container>
             
              <NavbarToggler onClick={this.toggleNav} className="mr-2"/>
              <NavbarBrand className="mr-auto" href="/" >Portfolio</NavbarBrand> 
@@ -50,7 +47,7 @@ import {NavLink} from 'react-router-dom';
                  </NavItem>
                </Nav>
              </Collapse>
-             </Container>
+
              
            </Navbar>
          </div>
