@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cd8b3c78a546fbbc7f7fd2de7535ed7",
+    "revision": "261828b3077b4613c7924da19d263868",
     "url": "/divyashreedivya.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/divyashreedivya.github.io/static/css/2.ed439b8d.chunk.css"
   },
   {
-    "revision": "c8bfb6aa2fcbde0d051d",
-    "url": "/divyashreedivya.github.io/static/css/main.e2a8cff7.chunk.css"
+    "revision": "e62f0ea3afe10bdd91d6",
+    "url": "/divyashreedivya.github.io/static/css/main.0cebd694.chunk.css"
   },
   {
     "revision": "437be681d80013b6b730",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/divyashreedivya.github.io/static/js/2.08e3bf58.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c8bfb6aa2fcbde0d051d",
-    "url": "/divyashreedivya.github.io/static/js/main.4c658a3a.chunk.js"
+    "revision": "e62f0ea3afe10bdd91d6",
+    "url": "/divyashreedivya.github.io/static/js/main.c11a4f8f.chunk.js"
   },
   {
     "revision": "5a4f5de79c9446474ea8",
