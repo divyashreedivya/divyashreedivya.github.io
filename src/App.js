@@ -5,7 +5,7 @@ import
 BrowserRouter as Router,
 Route,
 } from "react-router-dom";
-import Navbar from './components/Navbar';
+import Navigationbar from './components/Navigationbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Contact from './contents/Contact';
@@ -18,7 +18,7 @@ export default class App extends React.Component {
     return (
       <Router>
       <div className="App">
-        <Navbar />
+        <Navigationbar />
         <Route exact path="/">
         <Home />
         </Route>
