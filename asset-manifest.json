@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/divyashreedivya.github.io/static/css/main.b64c7cf4.chunk.css",
-    "main.js": "/divyashreedivya.github.io/static/js/main.ced337e2.chunk.js",
-    "main.js.map": "/divyashreedivya.github.io/static/js/main.ced337e2.chunk.js.map",
+    "main.css": "/divyashreedivya.github.io/static/css/main.e2a8cff7.chunk.css",
+    "main.js": "/divyashreedivya.github.io/static/js/main.4c658a3a.chunk.js",
+    "main.js.map": "/divyashreedivya.github.io/static/js/main.4c658a3a.chunk.js.map",
     "runtime-main.js": "/divyashreedivya.github.io/static/js/runtime-main.8a494530.js",
     "runtime-main.js.map": "/divyashreedivya.github.io/static/js/runtime-main.8a494530.js.map",
     "static/css/2.ed439b8d.chunk.css": "/divyashreedivya.github.io/static/css/2.ed439b8d.chunk.css",
-    "static/js/2.fbd6b99e.chunk.js": "/divyashreedivya.github.io/static/js/2.fbd6b99e.chunk.js",
-    "static/js/2.fbd6b99e.chunk.js.map": "/divyashreedivya.github.io/static/js/2.fbd6b99e.chunk.js.map",
+    "static/js/2.08e3bf58.chunk.js": "/divyashreedivya.github.io/static/js/2.08e3bf58.chunk.js",
+    "static/js/2.08e3bf58.chunk.js.map": "/divyashreedivya.github.io/static/js/2.08e3bf58.chunk.js.map",
     "index.html": "/divyashreedivya.github.io/index.html",
-    "precache-manifest.61c936cf635ed1d6a4702e0489266511.js": "/divyashreedivya.github.io/precache-manifest.61c936cf635ed1d6a4702e0489266511.js",
+    "precache-manifest.4867a4844cb57ee8ac1d47475279fb7b.js": "/divyashreedivya.github.io/precache-manifest.4867a4844cb57ee8ac1d47475279fb7b.js",
     "service-worker.js": "/divyashreedivya.github.io/service-worker.js",
     "static/css/2.ed439b8d.chunk.css.map": "/divyashreedivya.github.io/static/css/2.ed439b8d.chunk.css.map",
-    "static/css/main.b64c7cf4.chunk.css.map": "/divyashreedivya.github.io/static/css/main.b64c7cf4.chunk.css.map",
-    "static/js/2.fbd6b99e.chunk.js.LICENSE.txt": "/divyashreedivya.github.io/static/js/2.fbd6b99e.chunk.js.LICENSE.txt",
+    "static/css/main.e2a8cff7.chunk.css.map": "/divyashreedivya.github.io/static/css/main.e2a8cff7.chunk.css.map",
+    "static/js/2.08e3bf58.chunk.js.LICENSE.txt": "/divyashreedivya.github.io/static/js/2.08e3bf58.chunk.js.LICENSE.txt",
     "static/media/cert1.jpg": "/divyashreedivya.github.io/static/media/cert1.0a90d063.jpg",
     "static/media/cert2.jpg": "/divyashreedivya.github.io/static/media/cert2.7110186e.jpg",
     "static/media/cert3.jpg": "/divyashreedivya.github.io/static/media/cert3.e003fbbc.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.8a494530.js",
     "static/css/2.ed439b8d.chunk.css",
-    "static/js/2.fbd6b99e.chunk.js",
-    "static/css/main.b64c7cf4.chunk.css",
-    "static/js/main.ced337e2.chunk.js"
+    "static/js/2.08e3bf58.chunk.js",
+    "static/css/main.e2a8cff7.chunk.css",
+    "static/js/main.4c658a3a.chunk.js"
   ]
 }
