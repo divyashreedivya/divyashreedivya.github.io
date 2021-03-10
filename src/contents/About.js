@@ -25,7 +25,7 @@ export default class About extends React.Component {
         <br></br>
 
         I am Divyashree, studying BTech-CSE in MIT,Manipal.
-        I am interested in web development,ML and coding..</p>
+        I am interested in web development and coding..</p>
         <Row>
           <Col lg="4">
             <div className="info">

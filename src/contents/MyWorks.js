@@ -2,6 +2,8 @@ import React from 'react';
 import {Container,Col,Row} from 'reactstrap';
 import Carousel from '../components/Carousel.js';
 import musicpage from '../img/view-page.PNG';
+import rtsview from "../img/rtsview.PNG";
+import colorview from "../img/colorview.PNG";
 
 export default class MyWorks extends React.Component{
     render(){
@@ -28,22 +30,36 @@ export default class MyWorks extends React.Component{
             </p>
                     </Col>
                 </Row>
-                <Row>
-                <Col lg="6">
-                <h4 className="cert">Skills</h4>
-                <div className="certdiv">
-                  <p>C++ , Python , C , HTML , CSS ,
-                       Javascript , ReactJs , SQLite... 
-                        </p>
-                </div>
-                </Col>    
-                <Col lg="6">    
-                <h4 className="cert">Certificates</h4>
-                <Col md="12">
-         <p className="certtext">Some of my certificates...</p>
-                 <Carousel></Carousel> </Col>
-                 </Col> 
-                 </Row>
+                <Row className="workpage">
+                    <Col lg="6">
+            <a href="https://ragatalasearch.pythonanywhere.com/" 
+            target="_blank" rel="noopener noreferrer">
+                <img src={rtsview} alt="Raga Tala search" className="musicimage"></img></a>
+
+            </Col>
+                <Col lg="6" className="workdetail" >
+                <h5>Raga Tala Search</h5>
+         <p>A Django app where ragas can be searched 
+             in three ways(Search by name, arohanam and avarohanam) and 
+             Talas(by name and aksharas).
+            </p>
+                    </Col>
+                </Row>
+                <Row className="workpage">
+                    <Col lg="6">
+            <a href="https://divyashreedivya.github.io/color-memory-game/" 
+            target="_blank" rel="noopener noreferrer">
+                <img src={colorview} alt="Color memory game" className="musicimage"></img></a>
+
+            </Col>
+                <Col lg="6" className="workdetail" >
+                <h5>Color memory game</h5>
+         <p>A simple memory game where points are obtained by clicking
+             on a color not more than once.
+            </p>
+                    </Col>
+                </Row>
+                
                 </Container>    
             </div>
         )
