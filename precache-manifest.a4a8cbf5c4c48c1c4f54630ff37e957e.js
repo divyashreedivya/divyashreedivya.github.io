@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "261828b3077b4613c7924da19d263868",
+    "revision": "3ff577f8d34437d0cc041f7f1d8d6fca",
     "url": "/divyashreedivya.github.io/index.html"
   },
   {
-    "revision": "437be681d80013b6b730",
+    "revision": "39d70754662c20d4b010",
     "url": "/divyashreedivya.github.io/static/css/2.ed439b8d.chunk.css"
   },
   {
-    "revision": "e62f0ea3afe10bdd91d6",
-    "url": "/divyashreedivya.github.io/static/css/main.0cebd694.chunk.css"
+    "revision": "df777a947ec09cfdce62",
+    "url": "/divyashreedivya.github.io/static/css/main.e3695342.chunk.css"
   },
   {
-    "revision": "437be681d80013b6b730",
-    "url": "/divyashreedivya.github.io/static/js/2.08e3bf58.chunk.js"
+    "revision": "39d70754662c20d4b010",
+    "url": "/divyashreedivya.github.io/static/js/2.8fc9542a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/divyashreedivya.github.io/static/js/2.08e3bf58.chunk.js.LICENSE.txt"
+    "url": "/divyashreedivya.github.io/static/js/2.8fc9542a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e62f0ea3afe10bdd91d6",
-    "url": "/divyashreedivya.github.io/static/js/main.c11a4f8f.chunk.js"
+    "revision": "df777a947ec09cfdce62",
+    "url": "/divyashreedivya.github.io/static/js/main.b3870100.chunk.js"
   },
   {
     "revision": "5a4f5de79c9446474ea8",
@@ -44,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/divyashreedivya.github.io/static/media/cert4.330edc6f.jpg"
   },
   {
+    "revision": "29cd26dcfe90b17a417b0310ba5aec43",
+    "url": "/divyashreedivya.github.io/static/media/colorview.29cd26dc.PNG"
+  },
+  {
     "revision": "1c0f0b9f633a6cfcc92773b8ff7bb8c0",
     "url": "/divyashreedivya.github.io/static/media/profilepic.1c0f0b9f.jpg"
+  },
+  {
+    "revision": "82e3c3cbdec576fd265f983985696a9b",
+    "url": "/divyashreedivya.github.io/static/media/rtsview.82e3c3cb.PNG"
   },
   {
     "revision": "06d15c82945823fa55ca7f3cad1475a5",
