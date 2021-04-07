@@ -21,6 +21,7 @@ body{
     height:150px;
     border-radius: 50%;
     border:groove 2px #ff0867;
+    animation:fadeIn 0.5s ease;
   }
   .heading{
     font-size: 200%;
@@ -75,8 +76,6 @@ body{
     min-height: 100vh;
     padding-top: 5%;
     height:auto;
-
-
   }
   p{
     overflow:auto;
@@ -94,10 +93,12 @@ body{
     border-top:solid 10px #9e0640;
     border-radius:10px;
     color:#ffffff;
+    animation: slideUp 1s ease-in;
   }
   .hobbies{
     border: solid 5px #180950;
     border-radius:10px;
+    animation: fadeIn 1s ease;
   }
   .info:hover{
     -webkit-transform: scale(0.95);
@@ -120,7 +121,7 @@ body{
     .workpage{
       padding:2%;
       color:#ffffff;
-      
+      animation: slideUp 1s ease-in;
     }
     .musicimage:hover{
       -webkit-transform: scale(1.05);
@@ -152,15 +153,26 @@ body{
     color:#ffffff;
   
   }
-  .carouselimg{
-    
+  .carouselimg{ 
     height:100%;
   }
+.contactpg{
+  animation: fadeIn 0.5s ease;
+}
+
   @keyframes textGrow{
     0%{ transform:scale(1);}
     50%{ transform: scale(1.05);}
     100%{transform:scale(1);}
-    
+  }
+  @keyframes slideUp{
+    0%{ opacity:0; transform :translateY(20%);}
+    100%{ opacity:1; transform:translateY(0);}
+  }
+  @keyframes fadeIn {
+    0%{opacity: 0.2;}
+    50%{opacity:0.5;}
+    100%{opacity: 1;}
   }
   h1, .hpstyle{
     animation-name:textGrow;

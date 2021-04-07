@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
   render() {
     return(
       <div className="home">  
-      <Jumbotron>
+      <Jumbotron className="contactpg">
       <header><h1 className="heading">CONTACT ME</h1></header>
       <hr/>
       
