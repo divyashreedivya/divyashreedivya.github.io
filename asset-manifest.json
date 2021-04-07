@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/divyashreedivya.github.io/static/css/main.1625f8a9.chunk.css",
-    "main.js": "/divyashreedivya.github.io/static/js/main.b3870100.chunk.js",
-    "main.js.map": "/divyashreedivya.github.io/static/js/main.b3870100.chunk.js.map",
+    "main.css": "/divyashreedivya.github.io/static/css/main.de0ec7b8.chunk.css",
+    "main.js": "/divyashreedivya.github.io/static/js/main.9efdb755.chunk.js",
+    "main.js.map": "/divyashreedivya.github.io/static/js/main.9efdb755.chunk.js.map",
     "runtime-main.js": "/divyashreedivya.github.io/static/js/runtime-main.8a494530.js",
     "runtime-main.js.map": "/divyashreedivya.github.io/static/js/runtime-main.8a494530.js.map",
     "static/css/2.bd05f696.chunk.css": "/divyashreedivya.github.io/static/css/2.bd05f696.chunk.css",
     "static/js/2.8fc9542a.chunk.js": "/divyashreedivya.github.io/static/js/2.8fc9542a.chunk.js",
     "static/js/2.8fc9542a.chunk.js.map": "/divyashreedivya.github.io/static/js/2.8fc9542a.chunk.js.map",
     "index.html": "/divyashreedivya.github.io/index.html",
-    "precache-manifest.7072cd14b7641dabeb5d2802ce7a15aa.js": "/divyashreedivya.github.io/precache-manifest.7072cd14b7641dabeb5d2802ce7a15aa.js",
+    "precache-manifest.b8e345ed6ddd28fcd617c2a8e0f30b83.js": "/divyashreedivya.github.io/precache-manifest.b8e345ed6ddd28fcd617c2a8e0f30b83.js",
     "service-worker.js": "/divyashreedivya.github.io/service-worker.js",
     "static/css/2.bd05f696.chunk.css.map": "/divyashreedivya.github.io/static/css/2.bd05f696.chunk.css.map",
-    "static/css/main.1625f8a9.chunk.css.map": "/divyashreedivya.github.io/static/css/main.1625f8a9.chunk.css.map",
+    "static/css/main.de0ec7b8.chunk.css.map": "/divyashreedivya.github.io/static/css/main.de0ec7b8.chunk.css.map",
     "static/js/2.8fc9542a.chunk.js.LICENSE.txt": "/divyashreedivya.github.io/static/js/2.8fc9542a.chunk.js.LICENSE.txt",
     "static/media/cert1.jpg": "/divyashreedivya.github.io/static/media/cert1.0a90d063.jpg",
     "static/media/cert2.jpg": "/divyashreedivya.github.io/static/media/cert2.7110186e.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.8a494530.js",
     "static/css/2.bd05f696.chunk.css",
     "static/js/2.8fc9542a.chunk.js",
-    "static/css/main.1625f8a9.chunk.css",
-    "static/js/main.b3870100.chunk.js"
+    "static/css/main.de0ec7b8.chunk.css",
+    "static/js/main.9efdb755.chunk.js"
   ]
 }
