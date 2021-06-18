@@ -39,9 +39,9 @@ import {NavLink} from 'react-router-dom';
                  <NavItem className="link">
                    <NavLink className="navlink" to="/about">About</NavLink>
                  </NavItem>
-                 {/*<NavItem className="link">
+                 <NavItem className="link">
                    <NavLink className="navlink" to="/skills">Skills</NavLink>
-     </NavItem>*/}
+     </NavItem>
                  <NavItem className="link">
                    <NavLink className="navlink" to="/myworks">Works</NavLink>
      </NavItem>       

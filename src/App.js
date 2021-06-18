@@ -26,9 +26,9 @@ export default class App extends React.Component {
         <Route path="/about">
          <About />
          </Route>
-         {/*<Route path="/skills">
+         <Route path="/skills">
            <Skills/>
-    </Route>*/}
+    </Route>
         <Route path="/myworks">
            <MyWorks/>
     </Route>          
