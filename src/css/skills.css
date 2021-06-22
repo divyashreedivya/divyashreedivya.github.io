@@ -1,0 +1,42 @@
+.skillIcons svg{
+    height:25%;
+    width: 25%;
+    margin: 0;
+}
+.skillIcons{
+    padding-bottom: 2%;
+}
+.sicon{
+    font-size: 450%;
+    padding: 0;
+    margin: 0;
+    width: 5%;
+    color: #83afeb;
+}
+.sicon:hover{
+    color: #e0e9f5;
+}
+
+/* skills */
+.skillBody{
+    min-height: 90vh;
+    background: #171562 url('../images/girlLaptop.svg');
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    /* background-color: #110f49; */
+    color: white;
+    padding-top: 5%;
+}
+ul .control-dots{
+    color: #171562;
+}
+
+@media all and (max-width:768px){
+    .skillBody{
+        background-size: contain;
+        padding-top: 15%;
+    }
+    .sicon{
+        font-size: 300%;
+    }
+}

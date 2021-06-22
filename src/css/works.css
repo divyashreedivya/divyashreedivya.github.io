@@ -1,0 +1,35 @@
+.worksBody{
+    /* min-height: 100vh; */
+    background: #171562;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.workInfo h5{
+    text-align: center;
+}
+.workInfo{
+    padding: 2%;
+}
+.workPic{
+    margin-left: 5%;
+    width:90%;
+    border: solid 2px white;
+    border-radius: 20px;
+    filter:blur(10%);
+}
+.workPic:hover{
+    opacity: 1;
+    filter: blur(0);
+}
+.showmore{
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 2%;
+}
+@media all and (max-width:768px){
+    .worksBody{
+        padding-top: 15%;
+    }
+}
