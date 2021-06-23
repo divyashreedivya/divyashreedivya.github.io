@@ -1,0 +1,2 @@
+(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[883],{9616:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return a}});var r=t(3552),u=t(7294),a=function(e){function n(){return e.apply(this,arguments)||this}return(0,r.Z)(n,e),n.prototype.render=function(){return u.createElement("div",{className:"container-fluid"},u.createElement("h1",null,"Error Page"))},n}(u.Component)}}]);
+//# sourceMappingURL=component---src-pages-404-js-8bd43047ff64cb4d4d67.js.map
