@@ -24,7 +24,7 @@
     "dev": "gatsby develop -p 3333 -o",
     "build": "gatsby build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +42,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
