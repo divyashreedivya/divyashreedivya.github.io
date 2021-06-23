@@ -17,6 +17,7 @@ export default function Skills(){
                   <img className="girl1" src={girlLaptop} alt="girl"></img>
               </div> */}
          </Row>
+         <h4>Courses & Certifications</h4>
          <Row>
              <Col xs={0} md={1}></Col>
             

@@ -4,12 +4,15 @@
     color: white;
     padding-top: 5%;
     padding-bottom: 2%;
-}
-.workInfo h5{
-    text-align: center;
+    background: linear-gradient(180deg, #171562 0%, #0C0B30 100%);
 }
 .workInfo{
     padding: 2%;
+    color: #83afeb;
+}
+.workInfo h5{
+    text-align: center;
+    color: white;
 }
 .workPic{
     margin-left: 5%;
@@ -23,10 +26,15 @@
     filter: blur(0);
 }
 .showmore{
+    background-color: #2e29bd00;
     position:relative;
     left:50%;
     transform: translateX(-50%);
     margin-bottom: 2%;
+    border: 1px solid #2e29bd9d;
+}
+.showmore:hover{
+    background-color: #2e29bd3d;
 }
 @media all and (max-width:768px){
     .worksBody{

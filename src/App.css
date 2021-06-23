@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 body{
   background: #0B0A2D;
+  font-family: 'Benne', serif;
+  font-size: 1.2rem;
 }
 nav{
   width:100%;

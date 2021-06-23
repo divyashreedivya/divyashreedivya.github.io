@@ -7,11 +7,11 @@ import { Container,Col,Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 const exps = [
-  {
-    "role":"Web Master",
-    "time":"June 2021-Present",
-    "org":"IEEE SBM"
-  },
+  // {
+  //   "role":"Web Master",
+  //   "time":"June 2021-Present",
+  //   "org":"IEEE SBM"
+  // },
   {
     "role":"Management Committee Member",
     "time":"July 2020-June 2021",
@@ -57,8 +57,8 @@ export default function About(){
           <Col xs={9} sm={11} className="exp">
                    <Row>
             <Col xs={11} sm={4} className="info">{exp.role}</Col>
-            <Col  xs={11} sm={3} className="info">{exp.org}</Col>
-            <Col xs={11} sm={3} className="info">{exp.time}</Col>
+            <Col  xs={11} sm={4} className="info">{exp.org}</Col>
+            <Col xs={11} sm={4} className="info">{exp.time}</Col>
             </Row>
 
           </Col>
@@ -78,8 +78,8 @@ export default function About(){
           <Col xs={9} sm={11} className="exp">
                    <Row>
             <Col xs={11} sm={4} className="info">{edu.org}</Col>
-            <Col xs={11} sm={3} className="info">{edu.desc}</Col>
-            <Col xs={11} sm={3} className="info">{edu.score}</Col>
+            <Col xs={11} sm={4} className="info">{edu.desc}</Col>
+            <Col xs={11} sm={4} className="info">{edu.score}</Col>
             </Row>
 
           </Col>

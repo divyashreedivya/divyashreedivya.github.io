@@ -1,7 +1,15 @@
 .skillIcons svg{
-    height:25%;
-    width: 25%;
+    height:50%;
+    width: 50%;
     margin: 0;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    transform: translate(-20%,-20%);
+}
+.iconname{
+    font-size: 15px;
+    margin-left: 15%;
 }
 .skillIcons{
     padding-bottom: 2%;
@@ -30,7 +38,9 @@
 ul .control-dots{
     color: #171562;
 }
-
+.skillBody h4{
+    margin-left: 4%;
+}
 @media all and (max-width:768px){
     .skillBody{
         background-size: contain;
@@ -38,5 +48,10 @@ ul .control-dots{
     }
     .sicon{
         font-size: 300%;
+    }
+}
+@media all and (max-width:320px){
+    .sicon{
+        font-size: 250%;
     }
 }

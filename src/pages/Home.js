@@ -2,28 +2,26 @@ import React from 'react';
 import "../css/home.css";
 import profilepic from "../images/profilepic.svg";
 import {Container,Row,Col} from "react-bootstrap";
-import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 export default class Home extends React.Component {
   render() {
     return(
    
    <Container fluid className="homeBody">
-        <h1>Welcome!!!</h1>
+    <h1>
+    <Zoom top cascade>Hey There!     </Zoom>
+    </h1>
         <Row>
           <Col xs={12} md={6} md={{order:2}} className="profile">
-           
           <img className=" profileimg" src={profilepic} alt="Profile"></img>
-
-          </Col>  
+          </Col>
             <Col xs={12} md={6} md={{order:1}}>
-              <Fade top cascade>
             <div className="profile-info">
-            Hello There!!
-I am Divyashree, a second year BTech- CSE student at Manipal Institute of Technology, Manipal.
-I am a Full stack developer and coder
+I am <span className="myname">Divyashree</span> ,<wbr/> a second year<wbr/> BTech- CSE student at Manipal Institute of Technology, Manipal.
+I am an aspiring Developer.
             </div>
-            </Fade>
             </Col>
         </Row>
    </Container>

@@ -6,13 +6,19 @@
     background: url('../images/landingBg.svg');
     background-attachment: fixed;
     padding-top: 5%;
+    font-size: 1.3rem;
 }
 h1{
     margin-left: 4%;
-    padding: 2%;
+    padding:1%;
+    font-weight: 500;
+}
+h1::first-letter{
+    color: #efcaa8;
 }
 .homeBody h1{
     text-align: center;
+    margin-left: 0;
 }
 .profile{
     width: 287px;
@@ -27,7 +33,9 @@ h1{
     transform: translateX(50%);
     top:5%;
     border-radius: 50px;
+    border-radius: 50%;
     border: solid 2px white;
+    box-shadow: 2px 2px 2px #0B0A2D;
 }
 .profile-info{
     padding: 5%;
@@ -42,10 +50,11 @@ h1{
     padding-top: 10%;
     background: linear-gradient(180deg, #171562 0%, #0B0A2D 100%);
     padding-bottom:7%;
-    background:#171562 url('../images/contactimg.svg');
+    background:#0C0B30 url('../images/contactimg.svg');
     background-repeat: no-repeat;
     background-position: bottom left;
     padding-top: 5%;
+    
 }
 .con{
     margin:5%;
@@ -56,17 +65,24 @@ h1{
     float: right;
 }
 .social{
-    color: #171562;
    padding-bottom: 5%;
    margin-bottom: 5%;
 }
 .social a{
     color: #d1cff7;
 }
+.social-icon:hover{
+    color: #83afeb;
+}
+.myname{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
 
 @media all and (max-width:768px){
     .homeBody{
-        padding-top: 15%;
+        padding-top: 18%;
     }
     .contactBody{
         background-size: contain;
@@ -81,13 +97,31 @@ h1{
     } */
     .profile{
         padding: 0;
-        height: 20rem;
+        height: 17rem;
     }
     .profileimg{
         width:50%;
     }
     .profile-info{
-        padding:1%;
         top:1%;
+        width: 100%;
     }
+}
+@media all and (max-width:320px){
+    .con{
+        padding:10%;
+        border: 0;
+    }
+    .con-social{
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+        padding-bottom: 10%;
+    }
+    .social{
+        position: relative;
+    left: 50%;
+    transform: translateX(-60%);
+    }
+
 }
