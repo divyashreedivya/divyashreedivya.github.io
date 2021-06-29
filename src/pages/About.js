@@ -19,7 +19,7 @@ const exps = [
   },
   {
     "role":"Management Committee Member",
-    "time":"July 2020-June 2021",
+    "time":"July 2020-Present",
     "org":"Music and Fine Arts Club, Manipal"
   },
 ];

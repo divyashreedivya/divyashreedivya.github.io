@@ -10,16 +10,14 @@ nav{
   background: linear-gradient(45deg,#13124d 40%, #07071f 80%);
   color: white;
 }
-  .link{
-    color:white;
-    font-size: 100%;
-    padding:2%;
-    text-align: left;
-    text-shadow:5px 10px 15px #180950;
-  }
   .nav-link{
     color:#d9dbfa;
   }
   .nav-link:active{
     color: white;
+  }
+  .dbrand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#efcaa8;
   }

@@ -4,6 +4,7 @@ import profilepic from "../images/profilepic.svg";
 import {Container,Row,Col} from "react-bootstrap";
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
+import { StaticImage } from "gatsby-plugin-image";
 
 export default class Home extends React.Component {
   render() {
@@ -15,7 +16,8 @@ export default class Home extends React.Component {
     </h1>
         <Row>
           <Col xs={12} md={6} md={{order:2}} className="profile">
-          <img className=" profileimg" src={profilepic} alt="Profile"></img>
+          {/* <img className=" profileimg" src={profilepic} alt="Profile"></img> */}
+          <StaticImage src="../images/profilepic.jpg" alt="Profile" placeholder="blurred" className=" profileimg"/>
           </Col>
             <Col xs={12} md={6} md={{order:1}}>
             <div className="profile-info">
