@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
-import
-{
-BrowserRouter as Router,
-Route,Switch
-} from "react-router-dom";
+// import
+// {
+// BrowserRouter as Router,
+// Route,Switch
+// } from "react-router-dom";
 import Navigationbar from '../components/Navigationbar';
 import Home from './Home';
 import About from './About';

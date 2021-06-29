@@ -1,9 +1,8 @@
 .homeBody{
     color: white;
     min-height: 100vh;
-    background: #171562;
     background: #0B0A2D;
-    background: url('../images/landingBg.jpg');
+    background: url('../images/landingBg.svg');
     background-attachment: fixed;
     padding-top: 5%;
     font-size: 1.3rem;
@@ -25,13 +24,12 @@ h1::first-letter{
     height: 331px;
     border-radius: 50px;
     right:0;
-    float: center;
 }
 .profileimg{
     position: absolute;
-    right: 50%;
+    /* right: 50%; */
     transform: translateX(50%);
-    top:5%;
+    /* top:5%; */
     border-radius: 50px;
     border-radius: 50%;
     border: solid 2px white;
