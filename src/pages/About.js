@@ -7,19 +7,19 @@ import { Container,Col,Row } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 
 const exps = [
-  // {
-  //   "role":"Web Master",
-  //   "time":"June 2021-Present",
-  //   "org":"IEEE SBM"
-  // },
   {
-    "role":"Management Committee Member",
-    "time":"July 2020-June 2021",
+    "role":"Webmaster",
+    "time":"July 2021 - Present",
     "org":"IEEE SBM"
   },
   {
     "role":"Management Committee Member",
-    "time":"July 2020-Present",
+    "time":"July 2020 - July 2021",
+    "org":"IEEE SBM"
+  },
+  {
+    "role":"Management Committee Member",
+    "time":"July 2020 - Present",
     "org":"Music and Fine Arts Club, Manipal"
   },
 ];
