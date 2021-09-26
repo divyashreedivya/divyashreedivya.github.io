@@ -82,6 +82,10 @@ h1::first-letter{
     .homeBody{
         padding-top: 18%;
     }
+    .homeBody h1{
+        padding-top:5%;
+        padding-left: 10%;
+    }
     .contactBody{
         background-size: contain;
         padding-top: 15%;

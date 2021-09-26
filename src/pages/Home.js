@@ -21,7 +21,7 @@ export default class Home extends React.Component {
           </Col>
             <Col xs={12} md={6} md={{order:1}}>
             <div className="profile-info">
-I am <span className="myname">Divyashree</span> ,<wbr/> a second year<wbr/> BTech- CSE student at Manipal Institute of Technology, Manipal.
+I am <span className="myname">Divyashree</span> ,<wbr/> a third year<wbr/> BTech- CSE student at Manipal Institute of Technology, Manipal.
 I am an aspiring Developer.
             </div>
             </Col>

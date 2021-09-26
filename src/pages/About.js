@@ -19,14 +19,14 @@ const exps = [
   },
   {
     "role":"Management Committee Member",
-    "time":"July 2020 - Present",
+    "time":"July 2020 - July 2021",
     "org":"Music and Fine Arts Club, Manipal"
   },
 ];
 const edus = [
   {
     "org":"MIT, Manipal",
-    "score":"9.5 CGPA",
+    "score":"9.55 CGPA",
     "desc":"BTech CSE"
   },
   {
@@ -88,7 +88,7 @@ export default function About(){
                       ))}
        
         <h4>Extra Curricular Activities</h4>
-        <Fade left>
+        <Fade>
         <Row className="extra">
         <Col xs={3} sm={1}>
         <div className="exp-icon">

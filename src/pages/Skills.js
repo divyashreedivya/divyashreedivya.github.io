@@ -18,10 +18,10 @@ export default function Skills(){
               </div> */}
          </Row>
          <h4>Courses & Certifications</h4>
-         <Row>
+         <Row className="car-row">
              <Col xs={0} md={1}></Col>
             
-             <Col xs={6} md={4} className="carousel">
+             <Col xs={7} md={4} className="carousel">
              <Fade left>
              <CarouselCert/>
              </Fade>

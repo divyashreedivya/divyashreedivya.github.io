@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import Navigationbar from '../components/Navigationbar';
@@ -13,6 +14,10 @@ export default class App extends React.Component {
 
     return (
 <div className="App">
+<Helmet>
+          <meta charSet="utf-8" />
+          <title>Portfolio</title>
+</Helmet>
 <Navigationbar />
 <section id="home">
 <Home/>

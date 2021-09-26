@@ -43,11 +43,14 @@ ul .control-dots{
 }
 @media all and (max-width:768px){
     .skillBody{
-        background-size: contain;
+        background-size: 75%;
         padding-top: 15%;
     }
     .sicon{
         font-size: 300%;
+    }
+    .car-row{
+        padding-bottom: 5%;
     }
 }
 @media all and (max-width:320px){
