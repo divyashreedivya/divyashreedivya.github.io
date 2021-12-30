@@ -4,6 +4,7 @@ import musicpage from '../images/view-page.jpg';
 import rtsview from "../images/rtsview.jpg";
 import colorview from "../images/colorview.jpg";
 import aarogyasevaview from "../images/aarogyaSeva.jpg";
+import pra from "../images/pra.png";
 import { Container,Col,Row,Button } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -25,6 +26,12 @@ export default function MyWorks(){
             "url":"https://github.com/ik159/Antrix-ArogyaSeva"
             }
             ,
+            {
+                "image":pra,
+                "title":"Page Replacement Algorithms Visualizer",
+                "desc":"A django web application that visualizes 3 page replacement algorithms for given reference string and frame size",
+                "url":"https://pagereplacement.herokuapp.com/"
+            },
             {
                 "image":musicpage,
             "title":"My Music and art portfolio",
